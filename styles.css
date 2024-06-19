@@ -1,0 +1,72 @@
+body{
+    background-color: lightcyan;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 300px;
+    row-gap: 100px;
+    padding: 60px;
+}
+
+.grid-container > div{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border-color: black;
+}
+    
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.quoteDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titleCard{
+    font-size: 1.5rem;
+}
+
+.authorCard{
+    font-size: 1rem;
+}
+
+#quote{
+    width: 400px;
+}
+
+#intro{
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+form > div{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+form > div > .formbutton{
+
+    margin: 2px;
+}
+

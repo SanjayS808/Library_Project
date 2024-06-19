@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Library</title>
+</head>
+
+<body>
+
+      
+
+    <div class = "header">l i b r a r y </div>
+    <div class="quoteDiv">
+        <p id="quote"></p>
+        <p id = "intro">welcome to your library, there's a lot of books out. there there's alot to learn. start reading.</p>
+    </div>
+    <div class = "buttonDiv">
+        <button id = "newBookButton">new book</button>
+    </div>
+    
+
+    
+
+    <dialog>
+        <form id = "newBookForm" >
+            <div>
+            <label for="title">title</label>
+            <input type="text" id = "title" required>
+    
+            <label for="author">author</label>
+            <input type="text" id = "author"required >
+    
+            <label for="pages">pages</label>
+            <input type="text" id = "pages" >
+    
+            <label for="read">read</label>
+            <input type="checkbox" id = "read" >
+
+            <input class = "formbutton" type = "submit" value = "add book">
+            
+            <input class = "formbutton" type = "button" value = "nervermind" id = "cancelButton">
+        </div>
+            
+        </form>
+    </dialog>
+    
+    <div class="grid-container" id = "Library"></div>
+<script src="script.js"></script>
+</body>
+</html>
